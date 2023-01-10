@@ -1,0 +1,26 @@
+Name: Model
+Id: g=64b2bd629331fd95dfbf5b4140aa9afc
+Type: FolderType
+Children:
+- Name: Variable1
+  Id: g=a24861f604e94e031dfcf07741f8c049
+  Type: BaseDataVariableType
+  DataType: Int32
+  Value: 0
+- Name: Variable2
+  Id: g=d3f36de761649cd7905286913ba09a0e
+  Type: BaseDataVariableType
+  DataType: Boolean
+  Value: false
+- Name: Variable3
+  Id: g=be80a87c9d8a817d2b19aa8f11f5889f
+  Type: BaseDataVariableType
+  DataType: String
+  Value: "0"
+- Name: Variable4
+  Id: g=698c6a4ccbcf88879cb33092f22a936f
+  Type: BaseDataVariableType
+  DataType: Int32
+  ValueRank: OneDimension
+  ArrayDimensions: [3]
+  Value: [0,0,0]

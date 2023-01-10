@@ -1,0 +1,104 @@
+Name: Recipes
+Type: FolderType
+Children:
+- Name: RecipeSchema1
+  Id: g=9d93a47664704052079149f05e35f834
+  Type: RecipeSchema
+  Children:
+  - Name: Root
+    Type: BaseObjectType
+    Children:
+    - Name: Variable1
+      Type: BaseDataVariableType
+      DataType: Int32
+      Value: 0
+    - Name: Variable2
+      Type: BaseDataVariableType
+      DataType: Boolean
+      Value: false
+    - Name: Variable3
+      Type: BaseDataVariableType
+      DataType: String
+      Value: ""
+    - Name: Variable4
+      Type: BaseDataVariableType
+      DataType: Int32
+      ValueRank: OneDimension
+      ArrayDimensions: [3]
+      Value: [0,0,0]
+  - Class: Reference
+    Target: ns=12;i=27
+    Direction: Forward
+  - Class: Reference
+    Target: ns=12;i=33
+    Direction: Forward
+  - Class: Reference
+    Target: ns=12;i=31
+    Direction: Forward
+  - Class: Reference
+    Target: ns=12;i=44
+    Direction: Forward
+  - Class: Reference
+    Target: ns=12;i=35
+    Direction: Forward
+  - Class: Reference
+    Target: ns=12;i=37
+    Direction: Forward
+  - Class: Reference
+    Target: ns=12;i=76
+    Direction: Forward
+  - Class: Reference
+    Target: ns=12;i=53
+    Direction: Forward
+  - Class: Reference
+    Target: ns=12;i=62
+    Direction: Forward
+  - Class: Reference
+    Target: ns=12;i=55
+    Direction: Forward
+  - Class: Reference
+    Target: ns=12;i=58
+    Direction: Forward
+  - Class: Reference
+    Target: ns=12;i=60
+    Direction: Forward
+  - Name: TargetNode
+    Type: NodePointer
+    DataType: NodeId
+    Value: {"IdType":2,"Id":"64b2bd629331fd95dfbf5b4140aa9afc","Namespace":7}
+    Children:
+    - Name: Kind
+      Type: PropertyType
+      DataType: NodeId
+      Value: {"IdType":0,"Id":0,"Namespace":-1}
+  - Name: Store
+    Type: NodePointer
+    DataType: NodeId
+    Value: {"IdType":2,"Id":"a354b7d829afa9ee1415c982d3e91d36","Namespace":7}
+    Children:
+    - Name: Kind
+      Type: PropertyType
+      DataType: NodeId
+      Value: {"Id":1,"Namespace":15}
+  - Name: EditModel
+    Id: g=f4f1a4df00aa7649de1d42f31fe881e9
+    Type: BaseObjectType
+    Children:
+    - Name: Variable1
+      Type: BaseDataVariableType
+      DataType: Int32
+      Value: 0
+    - Name: Variable2
+      Type: BaseDataVariableType
+      DataType: Boolean
+      Value: false
+    - Name: Variable3
+      Type: BaseDataVariableType
+      DataType: String
+      Value: ""
+    - Name: Variable4
+      Type: BaseDataVariableType
+      DataType: Int32
+      ValueRank: OneDimension
+      ArrayDimensions: [3]
+      Value: [0,0,0]
